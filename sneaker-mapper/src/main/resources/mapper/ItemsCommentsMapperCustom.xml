@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sneaker.mapper.ItemsCommentsMapperCustom" >
+  <resultMap id="myComments" type="com.sneaker.pojo.vo.MyCommentVO">
+    <id column="commentId" property="commentId"/>
+    <result column="content" property="content"/>
+    <result column="createdTime" property="createdTime"/>
+    <result column="itemId" property="itemId"/>
+    <result column="itemName" property="itemName"/>
+    <result column="sepcName" property="specName"/>
+    <result column="itemImg" property="itemImg"/>
+  </resultMap>
+
+
+</mapper>
