@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.OrderStatus;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.OrderStatus;
  * @Date: 2020/1/20 10:24
  * @Description:
  */
-public interface OrderStatusMapper extends BaseMapper<OrderStatus> {
+public interface OrderStatusMapper extends MyMapper<OrderStatus> {
 }

@@ -1,6 +1,5 @@
 package com.sneaker.pojo;
 
-import com.baomidou.mybatisplus.activerecord.Model;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -14,7 +13,7 @@ import java.util.Date;
  * @Description:
  */
 @Data
-public class Carousel extends Model<Carousel> {
+public class Carousel {
     /**
      * 主键
      */
@@ -72,9 +71,4 @@ public class Carousel extends Model<Carousel> {
      */
     @Column(name = "update_time")
     private Date updateTime;
-
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
-    }
 }

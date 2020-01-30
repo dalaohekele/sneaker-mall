@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.UserAddress;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.UserAddress;
  * @Date: 2020/1/20 10:23
  * @Description:
  */
-public interface UserAddressMapper extends BaseMapper<UserAddress> {
+public interface UserAddressMapper extends MyMapper<UserAddress> {
 }

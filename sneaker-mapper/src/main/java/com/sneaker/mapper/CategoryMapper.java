@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.Category;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.Category;
  * @Date: 2020/1/20 10:29
  * @Description:
  */
-public interface CategoryMapper extends BaseMapper<Category> {
+public interface CategoryMapper extends MyMapper<Category> {
 }

@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.ItemsComments;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.ItemsComments;
  * @Date: 2020/1/20 10:28
  * @Description:
  */
-public interface ItemsCommentsMapperCustom extends BaseMapper<ItemsComments> {
+public interface ItemsCommentsMapperCustom extends MyMapper<ItemsComments> {
 }

@@ -1,7 +1,13 @@
 package com.sneaker.server.impl;
 
+import com.sneaker.mapper.UsersMapper;
+import com.sneaker.pojo.Users;
+import com.sneaker.pojo.bo.UserBO;
 import com.sneaker.server.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.UUID;
 
 /**
  * @Auther: le
@@ -10,4 +16,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl implements UserService {
+    @Autowired
+    UsersMapper usersMapper;
+
 }

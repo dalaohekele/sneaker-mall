@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.ItemsParam;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.ItemsParam;
  * @Date: 2020/1/20 10:26
  * @Description:
  */
-public interface ItemsParamMapper extends BaseMapper<ItemsParam> {
+public interface ItemsParamMapper extends MyMapper<ItemsParam> {
 }

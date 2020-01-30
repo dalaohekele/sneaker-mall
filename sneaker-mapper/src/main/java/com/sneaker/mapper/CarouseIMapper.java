@@ -1,6 +1,6 @@
 package com.sneaker.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.sneaker.my.mapper.MyMapper;
 import com.sneaker.pojo.Carousel;
 
 /**
@@ -8,5 +8,5 @@ import com.sneaker.pojo.Carousel;
  * @Date: 2020/1/13 20:51
  * @Description:
  */
-public interface CarouseIMapper extends BaseMapper<Carousel> {
+public interface CarouseIMapper extends MyMapper<Carousel> {
 }
