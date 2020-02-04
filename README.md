@@ -1,9 +1,17 @@
 sneaker商场项目
 --- 
-更新日志
+项目基础业务逻辑分支CRUD,可直接切换该分支 git checkout CRUD，
+可在此分支上进行后续内容的开发，后续内容会同步CSDN博客
+### 项目简介 
+- [x] 代码拥有详细注释 无复杂逻辑 核心使用 SpringBoot 2.0.0.RELEASE
 
-1.项目整体结构，直接运行访问：http://localhost:8080/hello
-，直接导出第一次提交（8f3a0c5930965d951683f914f9b7b1c72cdfd2c8），在idea中运行，如果能访问 http://127.0.0.1:8088/hello 则说明环境没有问题，可开始写逻辑代码
 
+### TODO
+- [ ] redis单点登录  
+- [ ] redis购物车  
+- [ ] 秒杀接口 
+- [ ] elastic search6 + kinbana +IK Analysis 搜索查询
+- [ ] quartz 定时任务
+- [ ] spring cloud分布式项目
 
 
