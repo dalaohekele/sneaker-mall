@@ -3,7 +3,18 @@ package com.sneaker.enums;
 /**
  * @Auther: le
  * @Date: 2020/1/12 10:21
- * @Description:
+ * @Description: 商品评价等级
  */
-public class CommentLevel {
+public enum  CommentLevel {
+    GOOD(1, "好评"),
+    NORMAL(2, "中评"),
+    BAD(3, "差评");
+
+    public final Integer type;
+    public final String value;
+
+    CommentLevel(Integer type, String value) {
+        this.type = type;
+        this.value = value;
+    }
 }

@@ -196,17 +196,6 @@ CREATE TABLE `orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='订单表;';
 
 -- ----------------------------
---  Table structure for `stu`
--- ----------------------------
-DROP TABLE IF EXISTS `stu`;
-CREATE TABLE `stu` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  `age` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1212 DEFAULT CHARSET=utf8mb4;
-
--- ----------------------------
 --  Table structure for `user_address`
 -- ----------------------------
 DROP TABLE IF EXISTS `user_address`;

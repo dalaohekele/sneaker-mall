@@ -36,7 +36,7 @@ public class Swagger2 {
                 .contact(new Contact("sneaker",
                         "https://www.sneaker-mall.com",
                         "abc@sneaker.com"))        // 联系人信息
-                .description("专为天天吃货提供的api文档")  // 详细信息
+                .description("api文档")  // 详细信息
                 .version("1.0.1")   // 文档版本号
                 .termsOfServiceUrl("https://www.sneaker-mall.com") // 网站地址
                 .build();

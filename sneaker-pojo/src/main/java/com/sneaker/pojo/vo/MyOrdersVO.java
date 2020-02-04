@@ -3,6 +3,7 @@ package com.sneaker.pojo.vo;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @Auther: le
@@ -18,4 +19,5 @@ public class MyOrdersVO {
     private Integer postAmount;
     private Integer isComment;
     private Integer orderStatus;
+    private List<MySubOrderItemVO> subOrderItemList;
 }

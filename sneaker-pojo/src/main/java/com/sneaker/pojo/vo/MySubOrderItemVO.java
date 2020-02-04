@@ -2,6 +2,8 @@ package com.sneaker.pojo.vo;
 
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @Auther: le
  * @Date: 2020/1/20 10:00

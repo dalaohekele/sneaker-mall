@@ -1,6 +1,8 @@
 package com.sneaker.pojo.vo;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Auther: le
@@ -8,6 +10,8 @@ import lombok.Data;
  * @Description: 订单状态概览数量VO
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class OrderStatusCountsVO {
     private Integer waitPayCounts;
     private Integer waitDeliverCounts;

@@ -8,5 +8,5 @@ import com.sneaker.pojo.Carousel;
  * @Date: 2020/1/13 20:51
  * @Description:
  */
-public interface CarouseIMapper extends MyMapper<Carousel> {
+public interface CarouselMapper extends MyMapper<Carousel> {
 }
